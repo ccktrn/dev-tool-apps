@@ -1,0 +1,1 @@
+ /home/pve/workspace/toolbox-apps/app_accounting/.dart_tool/flutter_build/5699d7510b8465b340f3ceb1db3cd2d9/native_assets.json: 
