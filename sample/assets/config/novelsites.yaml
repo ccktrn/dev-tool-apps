@@ -1,0 +1,32 @@
+ncode.syosetu.com: # 小説家になろう
+  host: ncode.syosetu.com
+  novel-suffix: n6316bn
+  episode-suffix: "2"
+  html:    
+    - title: id=novel_color/class=novel_title
+    - author: id=novel_color/class=novel_writername/a
+    - description: id=novel_ex
+    - eps: 
+      - id=novel_color/class=novel_sublist
+      - id=novel_color/class=index_box
+
+    - eptitle: id=novel_color/class=novel_subtitle
+    
+    - preface: id=novel_p
+    - text: id=novel_honbun
+    - afterwords: id=novel_a
+
+kakuyomu.jp: # カクヨム
+  host: kakuyomu.jp
+  novel-suffix: works/16818023214060016151
+  episode-suffix: episodes/16818023214060474801
+  html:
+    # - NVROOT: body/id=container/id=novel_contents/id=novel_color
+    
+    # - title: NVROOT/class=novel_title
+    # - author: NVROOT/class=novel_writername
+    # - description: NVROOT/id=novel_ex
+    # - eps: NVROOT/class=index_box
+
+    # - eptitle: NVROOT/class=novel_subtitle
+    # - eptext: NVROOT/id=novel_honbun
